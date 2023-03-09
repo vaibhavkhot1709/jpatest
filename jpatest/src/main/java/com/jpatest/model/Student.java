@@ -1,7 +1,5 @@
 package com.jpatest.model;
 
-import jakarta.annotation.Nonnull;
-import jakarta.annotation.Nullable;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
@@ -9,6 +7,7 @@ import jakarta.persistence.Id;
 public class Student {
 
 	@Id
+//	@Siz
 	int roll;
 	String name;
 	String address;
